@@ -1,0 +1,43 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  /* beautiful responsive background image made to fill all the space of a page */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.rothole{
+  height: 13rem;
+}
+
+h1{
+  color: #C6C6C6;
+  font-size: 3rem;
+}
+hr{
+  border-color: #622424;
+  border-width: 3px;
+  max-width: 65px;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-primary{
+  background-color: #622424;
+  border-color: #622424;
+}
+.butthole{
+  padding: 1rem 2rem;
+}
+.btn-primary:hover{
+  background-color: #0A0303;
+  border-color: #0A0303;
+  border-width: 3px;
+}
